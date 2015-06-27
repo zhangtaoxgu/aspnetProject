@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form action="../Handlers/LoginHandler.ashx" method="post">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="UserName" value="$Data.UserName" /></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Login" value="登录" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
